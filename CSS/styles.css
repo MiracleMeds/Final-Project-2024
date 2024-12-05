@@ -1,0 +1,61 @@
+/* 
+* 
+* 
+* 
+*/
+
+:root{
+    --color1: 000;
+    --color2: 001;
+}
+
+
+*{
+
+}
+
+/*styles sheet for anouncements*/
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Important Section */
+.important {
+    border-left: 4px solid red;
+    padding-left: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Upcoming Section */
+.upcoming {
+    border-left: 4px solid gray;
+    padding-left: 10px;
+    margin-bottom: 1rem;
+}
+
+
+/* Timestamp Style */
+.timestamp {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+/* Card Link */
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Card Customization */
+.card {
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
