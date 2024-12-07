@@ -14,7 +14,9 @@
 
 }
 
-/*styles sheet for anouncements*/
+/* Start of anouncement's style sheet */
+/* Abiud Emanuel Ramos Ruiz: 12/06/2024 */
+
 
 /* General Styles */
 body {
@@ -23,18 +25,17 @@ body {
 
 /* Important Section */
 .important {
-    border-left: 4px solid red;
+    border-left: 4px solid rgb(251, 255, 0);
     padding-left: 10px;
     margin-bottom: 1rem;
 }
 
 /* Upcoming Section */
 .upcoming {
-    border-left: 4px solid gray;
+    border-left: 4px solid rgb(255, 0, 0);
     padding-left: 10px;
     margin-bottom: 1rem;
 }
-
 
 /* Timestamp Style */
 .timestamp {
@@ -51,11 +52,39 @@ body {
 /* Card Customization */
 .card {
     border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.445);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
 }
 
+/* Hover Effect */
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.534);
 }
+
+/* Hover Shadow with Border Color */
+.important .card:hover {
+    box-shadow: -8px 8px 20px rgba(251, 255, 0, 0.541);
+}
+
+.upcoming .card:hover {
+    box-shadow: -8px 8px 20px rgba(255, 0, 0, 0.541);
+}
+
+/* This is the background color of the page we are gonna talk about it later if we keep this. */
+
+body {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(38,46,56,1) 25%, rgba(58,72,91,1) 50%, rgba(107,137,172,1) 75%, rgba(129,154,182,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(38,46,56,1) 25%, rgba(58,72,91,1) 50%, rgba(107,137,172,1) 75%, rgba(129,154,182,1) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(38,46,56,1) 25%, rgba(58,72,91,1) 50%, rgba(107,137,172,1) 75%, rgba(129,154,182,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#819ab6",GradientType=1);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0%;
+    background-attachment: fixed;
+}
+/* End of the background color */
+
+/* End of anouncement's style sheet */
