@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Chatt Tech - Clubs</title>
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -54,16 +54,152 @@
                      <!-- Jumbotron should be a callout to the reader to join a club if they haven't already. There should be a join button and a photo in the background -->
                     <div class="jumbotron jumbotron-fluid">
                         <div class="container">
-                          <h1 class="display-4">Fluid jumbotron</h1>
-                          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                            <div class="textbox">
+                                <h1 class="display-4">Find Your Next Favorite Hobby</h1>
+                                <p class="lead">Chattahoochee Tech has many different clubs hoted all throughout our various campus locations. Browse now to get involved!</p>
+                            </div>
+                          <a href="clubs.html"><button type="button" class="btn btn-primary" id="join">View Our Club List</button></a>
                         </div>
                       </div>
-                      <!-- add features using the grid system from bootstrap -->
+
+                      <!-- Information Cards -->
+                       <br>
+                      <div class="card-group">
+                        <div class="card">
+                          <img src="img/our-team.jpg" class="card-img-top" alt="Our club administration">
+                          <div class="card-body">
+                            <h5 class="card-title">Contact Us</h5>
+                            <p class="card-text">
+                                If you have any issues regarding clubs or improper student etiquette, feel free to contact us at <a class="mailto" href="mailto:chatttech"><b>Chatt@ClubHelp</b></a>. <br>
+                                <i>Hours: M-F: 11am-6pm</i>
+                            </p>
+                            <p class="card-text"><small class="text-body-secondary"><a href="http://"><button type="button" class="btn btn-primary" id="join">Contact Us &#8680;</button></a></small></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="img/map.jpg" class="card-img-top" alt="Map">
+                          <div class="card-body">
+                            <h5 class="card-title">Meeting Locations</h5>
+                            <p class="card-text">Chatt Tech currently has approximately 80 registered student clubs in total. Want to find where your club is located? Take a look at our interative map!</p>
+                            <p class="card-text"><small class="text-body-secondary"><a href="http://"><button type="button" class="btn btn-primary" id="join">Take a Look &#8680;</button></a></small></p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img src="img/Consult.jpg" class="card-img-top" alt="Consultant talking with student">
+                          <div class="card-body">
+                            <h5 class="card-title">Make a Club</h5>
+                            <p class="card-text">Haven't seen what you're looking for? Register your own club today! Schedule an appointment with your counselor today to start the club registration process.</p>
+                            <p class="card-text"><small class="text-body-secondary"><a href="http://"><button type="button" class="btn btn-primary" id="join">Begin the Process &#8680;</button></a></small></p>
+                          </div>
+                        </div>
+                      </div>
+                      <br>
+
+                      <!-- Mail List -->
+                      <div class="mailList">
+                        <h3>Enter your school email to join our club mailing list!</h3>
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                              <label for="inputPassword6" class="col-form-label">Email:</label>
+                            </div>
+                            <div class="col-auto">
+                              <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                            </div>
+                            <div class="col-auto">
+                              <span id="passwordHelpInline" class="form-text">
+                                You may use other email accounts if you have yet to recieve a school email.
+                              </span>
+                            </div>
+                          </div>     
+                   </div>
+                   <br>
+
+                      <!-- Table -->
+                       <div class="tableCard">
+                        <h2>Annual Charity Competition</h2>
+                        <p>Clubs at Chatt Tech are encouraged to participate in our annual <b>Community Clubs</b> charity fundraiser. This year, the highest donators will get an interview with <a class="mailto" href="https://www.wsbtv.com/"><b>WSBTV Channel 2 News</b></a> and an internship opportunity with them too!</p>
+                      <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                              <th scope="col">Current Rank</th>
+                              <th scope="col">Club</th>
+                              <th scope="col">Donation</th>
+                              <th scope="col">Instagram Handle</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1st</th>
+                              <td>Movie Club</td>
+                              <td>$1,234.23</td>
+                              <td class="mailto">@ChattMovieClubs</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">2nd</th>
+                              <td>Art Club</td>
+                              <td>$989.41</td>
+                              <td>@CTPaintings</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">3rd</th>
+                              <td>Programming Club</td>
+                              <td>$920.00</td>
+                              <td>@ChattProgrammersGuild</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">4th</th>
+                                <td>Science Club</td>
+                                <td>$634.73</td>
+                                <td class="mailto">@MadScienceMarietta</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5th</th>
+                                <td>Music Club</td>
+                                <td>$340.00</td>
+                                <td class="mailto">@ChattMovieClubs</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                      <p>
+                        All donations go to Atlanta's local <a class="mailto" href="https://www.habitat.org/">Habitat For Humanity</a> locations! <br>
+                        <a href="https://secure.habitat.org/site/Donation2?idb=812850470&df_id=4973&4973.donation=form1&keyword=promo-homepage"><button type="button" class="btn btn-primary" id="join">Donate Now! &#8680;</button></a>
+                    </p>
+                    </div>
+                    <br>
+
+                      <!-- Grid -->
+
+                       <br>
+
+  
+</div>
                 </main>
             </div>
+        <footer>
+            <div class="grid2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="img/ChattTechLogo.png" class="img-fluid" alt="logo">
+                            <p>980 South Cobb Drive Marietta, GA 30060</p>
+                            <p><a class="footerLink" href="tel:+7705284545">(770)-528-4545</a></p>
+                            <p><a class="footerLink" href="https://www.chattahoocheetech.edu/?_vsrefdom=CXN-SEM&utm_source=google&utm_campaign=Brand&utm_medium=cpc&utm_content=Brand_Terms&utm_term=chattahoochee%20technical%20college&gad_source=1&gclid=CjwKCAiA6t-6BhA3EiwAltRFGL1eJUBKnhOOYQh5JfsbpnppxYOpRvURZ0bH0iUiBl2eLm9Ttea_jBoCnKwQAvD_BwE">Back To Main Webpage</a></p>
+                            <p>Copyright &#169; 2024 <br> All Rights Reserved</p>
+                        </div>
+                        <div class="col-6">
+                            <div id="socialscol">
+                            <img class="socials" src="img/youtube-brands-solid.svg" alt="youtube" width="20px" height="20px">
+                            <img class="socials" src="img/facebook-brands-solid.svg" alt="facebook" width="20px" height="20px">
+                            <img class="socials" src="img/instagram-brands-solid.svg" alt="instagram" width="20px" height="20px">
+                            <img class="socials" src="img/x-twitter-brands-solid.svg" alt="x" width="20px" height="20px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
         </footer>
-        <h1></h1>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
-  </div>
+    </div>
+</body>
+  
 </html>

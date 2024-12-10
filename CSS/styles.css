@@ -1,18 +1,74 @@
 /* 
-* 
-* 
+* Final Project CSS style sheet
+* Guillermo Perez and Abiud Ramos Ruiz
 * 
 */
 
 :root{
-    --color1: 000;
-    --color2: 001;
+    --navy: #00328C;
+    --celeste: #4B91DB;
+    --mustard: #AA8C00;
+    --celestedark: #35679B;
 }
 
 *{
 
 }
+/* Start of main page style sheet */
 
+.wrapper{
+    background-image:linear-gradient(var(--mustard),white 99% );
+}
+/* jumbotron styles */
+.jumbotron{
+    color:rgb(255, 255, 255);
+    background-image: url("../img/drama.jpg");
+    padding:5% 0 5% 0;
+    background-position: bottom 80% right 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.textbox{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    justify-content: center;
+    padding: 1px 20px 1px 20px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    margin-bottom: 12px;
+}
+/* Card Styles */
+
+.mailto{
+    text-decoration: none;
+    color: var(--navy);
+}
+
+/* mailing list styles */
+.mailList{
+    background-image: linear-gradient(white 60%, rgb(230, 230, 230));
+    border-radius: 10px;
+    padding: 6px 10px 6px 10px;
+    filter: drop-shadow(0px 3px 3px #1616166b);
+}
+
+#passwordHelpInline{
+    font-style: italic;
+}
+
+
+/* Table Styles */
+.tableCard{
+    background-image: linear-gradient(white 70%, rgb(230, 230, 230));
+    filter: drop-shadow(0px 3px 3px #1616166b);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+
+
+/* End of main page style sheet */
 /* Start of anouncement's style sheet */
 /* Abiud Emanuel Ramos Ruiz: 12/06/2024 */
 
@@ -69,6 +125,36 @@ body {
 .upcoming .card:hover {
     box-shadow: -8px 8px 20px rgba(255, 0, 0, 0.541);
 }
+
+/* Footer styles */
+.grid2{
+    background-image: linear-gradient(var(--celeste) , var(--celestedark)20px);
+    padding-top: 20px;
+    color:white;
+    font-size: 0.9em;
+    font-weight: 400;
+
+}
+.grid2 h3{
+    color: white;
+}
+.footerLink{
+    color:white;
+    text-decoration: none;
+}
+#socialscol{
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    right: 10px;
+    
+}
+#socialscol img {
+    padding-right: 10px;
+    transform:scale(1.6);
+}
+
+
 
 /* This is the background color of the page we are gonna talk about it later if we keep this. */
 
