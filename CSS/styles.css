@@ -159,7 +159,7 @@ body {
 /* This is the background color of the page we are gonna talk about it later if we keep this. */
 
 body {
-    background: rgb(0,0,0);
+    /* background: rgb(0,0,0);
     background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(38,46,56,1) 25%, rgba(58,72,91,1) 50%, rgba(107,137,172,1) 75%, rgba(129,154,182,1) 100%);
     background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(38,46,56,1) 25%, rgba(58,72,91,1) 50%, rgba(107,137,172,1) 75%, rgba(129,154,182,1) 100%);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(38,46,56,1) 25%, rgba(58,72,91,1) 50%, rgba(107,137,172,1) 75%, rgba(129,154,182,1) 100%);
@@ -167,7 +167,9 @@ body {
     background-repeat: no-repeat;
     height: 100%;
     margin: 0%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background: rgb(0,50,140);
+background: linear-gradient(180deg, rgba(0,50,140,1) 0%, rgba(75,145,219,1) 33%);
 }
 /* End of the background color */
 
