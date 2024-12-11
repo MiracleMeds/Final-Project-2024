@@ -19,6 +19,10 @@
 .wrapper{
     background-image:linear-gradient(var(--mustard),white 99% );
 }
+.wrapper p{
+    text-shadow: none;
+    color: default;
+}
 /* jumbotron styles */
 .jumbotron{
     color:rgb(255, 255, 255);
@@ -168,8 +172,8 @@ body {
     height: 100%;
     margin: 0%;
     background-attachment: fixed; */
-    background: rgb(0,50,140);
-background: linear-gradient(180deg, rgba(0,50,140,1) 0%, rgba(75,145,219,1) 33%);
+    background: rgb(75,145,219);
+    background: linear-gradient(180deg, rgba(75,145,219,1) 0%, rgba(0,50,140,1) 26%);
 }
 /* End of the background color */
 
@@ -219,6 +223,7 @@ background: linear-gradient(180deg, rgba(0,50,140,1) 0%, rgba(75,145,219,1) 33%)
 /* Title Styling in Club Section */
 .club-section .content h3 {
     font-size: 2rem;
+    text-shadow: 1px 1px 2px black;
     color: rgb(255, 255, 255);
     margin-bottom: 15px;
 }
@@ -226,7 +231,8 @@ background: linear-gradient(180deg, rgba(0,50,140,1) 0%, rgba(75,145,219,1) 33%)
 /* Paragraph Styling in Club Section */
 .club-section .content p {
     font-size: 1.1rem;
-    color: #ccc;
+    text-shadow: 1px 1px 2px black;
+    color:white;
     line-height: 1.6;
 }
 
